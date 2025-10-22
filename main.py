@@ -8,7 +8,6 @@ templates = [
 
 # select a random template
 template = choice(templates)
-template = templates[1]
 
 # extract placeholders from template
 def extract_placeholders(template):
